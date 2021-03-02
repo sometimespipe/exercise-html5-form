@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=, initial-scale=1.0">
+    <title>HTML payment form</title>
+    <script src="https://kit.fontawesome.com/bdd9f68f68.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+</head>
+
+<body>
+
+
+<div class="mt-5">
+  
+
+    <div class="card border rounded w-50 d-flex justify-content-center m-auto">
+
+        <div class="card-header">
+            <h1>Payment form</h1>
+        </div>
+        <div class="card-body">
+
+            <div class="alert alert-danger" role="alert">
+                There are blank spaces
+            </div>
+
+
+            <div class="row">
+                <div class="col-4 form-group">
+                    <label for="exampleFormControlInput1">Card Number</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="XXXXXXXX">
+
+
+                </div>
+                <div class="col-4 form-group">
+                    <label for="exampleFormControlInput1">CVC</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="0000">
+
+
+
+                </div>
+                <div class="col-4 form-group">
+                    <label for="exampleFormControlInput1">Ammount</label>
+                    <i class="fas fa-dollar-sign"></i> <input type="email" class="form-control"
+                        id="exampleFormControlInput1">
+
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 form-group">
+                    <label for="exampleFormControlInput1">First Name</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Jane">
+                </div>
+                <div class="col-6 form-group">
+                    <label for="exampleFormControlInput1">Last Name</label>
+                    <input type="text" class="form-control" id="exampleFormControlInput1" placeholder="Doe" required>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-6 form-group">
+                    <label for="exampleFormControlInput1">City</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="Los Angeles">
+                </div>
+                <div class=" col-3 form-group">
+                    <label for="exampleFormControlSelect1">State</label>
+                    <select class="form-control" id="exampleFormControlSelect1">
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                    </select>
+                </div>
+                <div class="col-3 form-group">
+                    <label for="exampleFormControlInput1">Postal Code</label>
+                    <input type="email" class="form-control" id="exampleFormControlInput1" placeholder="123456">
+                </div>
+            </div>
+
+            <div class="row">
+
+                <div class="col-6 ">
+                    <label for="exampleFormControlTextarea1">Payment method:</label>
+                    <div style="text-align: center;">
+                        <div class="rounded bg-secondary">
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio1"
+                                    value="option1">
+                                <label class="form-check-label" for="inlineRadio1"> <i class="fab fa-cc-visa"
+                                        style="color:white"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-mastercard"
+                                        style="color:white"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-diners-club"
+                                        style="color:white"></i></label>
+                            </div>
+                            <div class="form-check form-check-inline">
+                                <input class="form-check-input" type="radio" name="inlineRadioOptions" id="inlineRadio2"
+                                    value="option2">
+                                <label class="form-check-label" for="inlineRadio2"><i class="fab fa-cc-amex"
+                                        style="color:white"></i></label>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-6 form-group">
+                    <label for="exampleFormControlTextarea1">Message</label>
+                    <textarea class="form-control" id="exampleFormControlTextarea1" row="1"
+                        placeholder="Aditional info."></textarea>
+                </div>
+
+
+            </div>
+
+
+        </div>
+
+        <div class="card-footer text-right text-muted">
+            <button type="button" class="btn btn-secondary">Cancel</button> <button type="button"
+                class="btn btn-primary">Send</button>
+        </div>
+    </div>
+    </div>
+
+  
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
